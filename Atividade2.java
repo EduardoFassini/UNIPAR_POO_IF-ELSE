@@ -6,7 +6,7 @@ class HelloWorld {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Informe um número:");
+        System.out.println("Informe um número inteiro:");
         int num = scanner.nextInt();
 
         if(num%2==0){
